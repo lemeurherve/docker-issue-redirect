@@ -1,8 +1,10 @@
 FROM bash:5.3.8-alpine3.22 AS builder
 
+WORKDIR /
+
 COPY . .
-RUN ./bin/redirects.sh
-RUN wget https://www.jenkins.io/favicon.ico
+RUN ./bin/redirects.sh \
+    && wget --quiet https://www.jenkins.io/favicon.ico
 
 FROM nginx:1.29.3-alpine
 
