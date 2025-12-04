@@ -5,4 +5,4 @@ services:
     ports:
       - "8060:80"
     volumes:
-      - "./docker/index.html:/usr/share/nginx/html/index.html"
+      - "./docker/index.html:/htdocs/index.html"
