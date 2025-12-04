@@ -1,0 +1,4 @@
+*
+!bin/redirects.sh
+!mappings/jira_keys_to_github_ids.txt
+!docker/*

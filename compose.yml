@@ -1,0 +1,11 @@
+services:
+  app:
+    build:
+      context: .
+    ports:
+      - "8060:80"
+    volumes:
+      - "docker/index.html:/usr/share/nginx/html/index.html:ro"
+
+volumes:
+  

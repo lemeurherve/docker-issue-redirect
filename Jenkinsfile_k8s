@@ -1,0 +1,4 @@
+buildDockerAndPublishImage('issue-redirect', [
+    publishToPrivateAzureRegistry: true,
+    targetplatforms: 'linux/amd64,linux/arm64',
+])
