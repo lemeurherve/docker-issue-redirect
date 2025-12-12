@@ -8655,6 +8655,7 @@ JENKINS-19457:jenkinsci/jenkins#14900
 JENKINS-19460:jenkinsci/ec2-plugin#1292
 JENKINS-19462:jenkinsci/htmlpublisher-plugin#437
 JENKINS-19463:jenkinsci/github-plugin#491
+JENKINS-19465:jenkinsci/ssh-agents-plugin#753
 JENKINS-19468:jenkinsci/git-plugin#2320
 JENKINS-19476:jenkinsci/jenkins#14901
 JENKINS-19477:jenkinsci/gerrit-trigger-plugin#640
@@ -8869,6 +8870,7 @@ JENKINS-20034:jenkinsci/email-ext-plugin#960
 JENKINS-20035:jenkinsci/jenkins#15016
 JENKINS-20038:jenkinsci/jenkins#15017
 JENKINS-20040:jenkinsci/jenkins#15018
+JENKINS-20043:jenkinsci/ssh-agents-plugin#754
 JENKINS-20046:jenkinsci/jenkins#15019
 JENKINS-20050:jenkinsci/email-ext-plugin#961
 JENKINS-20051:jenkinsci/ldap-plugin#426
@@ -8898,8 +8900,10 @@ JENKINS-20100:jenkinsci/jenkins#15035
 JENKINS-20102:jenkinsci/jenkins#15036
 JENKINS-20106:jenkinsci/jenkins#15037
 JENKINS-20107:jenkinsci/remoting#1078
+JENKINS-20108:jenkinsci/ssh-agents-plugin#755
 JENKINS-20110:jenkinsci/jenkins#15038
 JENKINS-20114:jenkinsci/jenkins#15039
+JENKINS-20115:jenkinsci/ssh-agents-plugin#756
 JENKINS-20116:jenkinsci/jenkins#15040
 JENKINS-20117:jenkinsci/email-ext-plugin#964
 JENKINS-20118:jenkinsci/gerrit-trigger-plugin#646
@@ -8963,6 +8967,7 @@ JENKINS-20237:jenkinsci/jenkins#15060
 JENKINS-20239:jenkinsci/jenkins#15061
 JENKINS-20243:jenkinsci/git-plugin#2342
 JENKINS-20245:jenkinsci/jenkins#15062
+JENKINS-20249:jenkinsci/ssh-agents-plugin#757
 JENKINS-20251:jenkinsci/git-client-plugin#1390
 JENKINS-20252:jenkinsci/jenkins#15063
 JENKINS-20254:jenkinsci/git-client-plugin#1391
@@ -9005,6 +9010,7 @@ JENKINS-20326:jenkinsci/git-client-plugin#1393
 JENKINS-20327:jenkinsci/jenkins#15078
 JENKINS-20328:jenkinsci/role-strategy-plugin#465
 JENKINS-20330:jenkinsci/mailer-plugin#495
+JENKINS-20332:jenkinsci/ssh-agents-plugin#758
 JENKINS-20333:jenkinsci/jenkins#15079
 JENKINS-20337:jenkinsci/jenkins#24850
 JENKINS-20340:jenkinsci/role-strategy-plugin#466
@@ -9061,6 +9067,7 @@ JENKINS-20484:jenkinsci/jenkins#15102
 JENKINS-20486:jenkinsci/jenkins#15103
 JENKINS-20490:jenkinsci/jenkins#15104
 JENKINS-20492:jenkinsci/promoted-builds-plugin#506
+JENKINS-20495:jenkinsci/ssh-agents-plugin#759
 JENKINS-20500:jenkinsci/jenkins#15105
 JENKINS-20501:jenkinsci/jenkins#15106
 JENKINS-20502:jenkinsci/git-plugin#2360
@@ -9105,6 +9112,7 @@ JENKINS-20606:jenkinsci/jenkins#15122
 JENKINS-20607:jenkinsci/git-plugin#2369
 JENKINS-20609:jenkinsci/jenkins#15123
 JENKINS-20610:jenkinsci/jenkins#15124
+JENKINS-20611:jenkinsci/ssh-agents-plugin#760
 JENKINS-20612:jenkinsci/jenkins#15125
 JENKINS-20614:jenkinsci/git-client-plugin#1396
 JENKINS-20615:jenkinsci/junit-plugin#946
@@ -9246,6 +9254,7 @@ JENKINS-20932:jenkinsci/parameterized-trigger-plugin#582
 JENKINS-20936:jenkinsci/git-plugin#2383
 JENKINS-20939:jenkinsci/git-plugin#2384
 JENKINS-20941:jenkinsci/git-plugin#2385
+JENKINS-20942:jenkinsci/ssh-agents-plugin#761
 JENKINS-20947:jenkinsci/remoting#1081
 JENKINS-20948:jenkinsci/jenkins#15200
 JENKINS-20949:jenkinsci/jenkins#15201
@@ -9540,6 +9549,7 @@ JENKINS-21600:jenkinsci/job-config-history-plugin#457
 JENKINS-21601:jenkinsci/ec2-plugin#1313
 JENKINS-21602:jenkinsci/matrix-project-plugin#563
 JENKINS-21605:jenkinsci/jenkins#15326
+JENKINS-21606:jenkinsci/ssh-agents-plugin#762
 JENKINS-21612:jenkinsci/jenkins#15327
 JENKINS-21613:jenkinsci/jenkins#15328
 JENKINS-21618:jenkinsci/jenkins#15329
