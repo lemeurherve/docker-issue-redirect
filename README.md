@@ -13,8 +13,11 @@ A default rule will redirect any unknown issue IDs to Jira.
 
 Ex:
 - `https://issue-redirect.jenkins.io/JENKINS-1`
+- `https://issue-redirect.jenkins.io/INFRA-1`
 - `https://issue-redirect.jenkins.io/issue/1`
 
 ## Adding more
 
 To add more Jira redirects send a pull request to [jira_keys_to_github_ids.txt](./mappings/jira_keys_to_github_ids.txt).
+
+To add redirections for issues of another Jira project than the ones already included, you'll also have to update [redirect.sh](./redirect.sh)
