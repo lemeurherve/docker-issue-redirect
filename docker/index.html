@@ -12,14 +12,17 @@
         <main class="app-container">
             <h1>Issue tracker redirector</h1>
 
-            <p>API:</p>
+            <h4>API:</h4>
             <ul>
-                <li><code>GET /browse/:jira_key</code> - Redirects to the corresponding GitHub issue, if found. Otherwise to Jira.</li>
+                <li><b><code>GET /browse/:jira_key</code></b> - Redirects to the corresponding GitHub issue, if found. Otherwise to Jira. (Recommended, other routes are kept for compatibility reason)</li>
                 <li><code>GET /:jira_key</code> - Redirects to the corresponding GitHub issue, if found. Otherwise to Jira.</li>
                 <li><code>GET /issue/:jira_key_id</code> - Redirects to the corresponding GitHub issue, if found. Otherwise to Jira prefixing it with JENKINS-.</li>
             </ul>
 
-            <p>Example of usage: replace the <code>issues</code> subdomain of any Jira link like https://issues.jenkins.io/browse/JENKINS-1 by <code>issue-redirect</code>: https://issue-redirect.jenkins.io/browse/JENKINS-1</p>
+            <h4>Example of usage:</h4>
+            <p>
+                From a Jira link like <a href="https://issues.jenkins.io/browse/JENKINS-1"><em>issues</em>.jenkins.io/browse/JENKINS-1</a>, replace its subdomain by <code>issue-redirect</code>: <a href="https://issue-redirect.jenkins.io/browse/JENKINS-1"><em>issue-redirect</em>.jenkins.io/browse/JENKINS-1</a>
+            </p>
 
             <p>To add more Jira redirects send a pull request to <a href="https://github.com/jenkins-infra/docker-issue-redirect/blob/main/mappings/jira_keys_to_github_ids.txt">jira_keys_to_github_ids.txt</a>.</p>
         </main>
