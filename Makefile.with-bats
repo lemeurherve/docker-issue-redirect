@@ -1,0 +1,22 @@
+IMAGE_NAME=$(notdir $(CURDIR))-app
+
+.PHONY: build up down test clean
+
+build:
+	docker build -t $(IMAGE_NAME) .
+
+bats:
+	git clone --branch v1.13.0 https://github.com/bats-core/bats-core ./bats
+
+up:
+	docker compose -f compose.yml up -d --build
+
+down:
+	docker compose -f compose.yml down -v
+
+test: up bats
+	bats tests/redirects.bats
+	$(MAKE) clean
+
+clean: down
+	docker rmi $(IMAGE_NAME) || true
